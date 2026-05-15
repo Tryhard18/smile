@@ -1,0 +1,33 @@
+{
+  "name": "Smile Comunicação",
+  "short_name": "Smile",
+  "description": "Agência de marketing e publicidade. Soluções de impacto em outdoors, mupis, viaturas, e ativação de marca.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0d1b2a",
+  "theme_color": "#f2d013",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/logo_smile.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/logo_smile.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/images/optimized/hero_home.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ]
+}

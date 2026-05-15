@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /sobre.html
+Allow: /solucoes.html
+Allow: /contactos.html
+Allow: /servicos/
+
+Disallow: /
+
+Sitemap: https://smilecomunicacao.pt/sitemap.xml

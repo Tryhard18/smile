@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós | Smile Comunicação</title>
+    <meta name="description"
+        content="Conheça a agência Smile Comunicação, com mais de 8 anos de experiência entregando resultados reais pelo país fora.">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Sobre Nós | Smile Comunicação">
+    <meta property="og:description"
+        content="Conheça a agência Smile Comunicação, com mais de 8 anos de experiência entregando resultados reais.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="/sobre.html">
+    <meta property="og:image" content="assets/images/hero_sobre.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#0d1b2a">
+    <meta name="color-scheme" content="dark">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://smilecomunicacao.pt/sobre.html">
+    <link rel="icon" type="image/x-icon" href="assets/images/smile_icon.webp">
+    <link rel="apple-touch-icon" href="assets/images/smile_icon.webp">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="assets/images/hero_sobre.webp">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.min.css?v=3.5">
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="preloader-smile"></div>
+    </div>
+
+
+    <header id="header">
+        <a href="index.html" class="logo" aria-label="Smile Comunicação — página inicial" title="Smile Comunicação">
+            <img src="assets/images/logo_smile.webp" alt="Smile Comunicação">
+        </a>
+        <!-- Hamburger Menu Button -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-links" role="navigation" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="solucoes.html">Soluções Smile</a>
+            <a href="contactos.html">Contactos</a>
+        </nav>
+        <a href="contactos.html" class="btn btn-primary header-btn"
+            style="padding: 0.8rem 1.5rem; display: none;">Or�    <main class="main-with-header-margin">
+
+        <!-- Editorial Hero -->
+        <section class="editorial-hero">
+            <div class="hero-bg" style="background: linear-gradient(rgba(10, 17, 40, 0.8), rgba(10, 17, 40, 0.95)), url('assets/images/hero_sobre.webp') center/cover fixed;"></div>
+            <div class="hero-content reveal">
+                <p>Agência Smile</p>
+                <h1>Sobre<br><span style="color: var(--accent-color);">Nós.</span></h1>
+            </div>
+        </section>
+
+        <!-- Clients Horizontal Scroll (Minimalist) -->
+        <section class="clients-minimal" style="padding: 4rem 10%; background: #050a0f; border-bottom: 1px solid rgba(255,255,255,0.05);">
+            <div class="container" style="display: flex; justify-content: space-between; align-items: center; opacity: 0.5;">
+                <span style="font-size: 0.8rem; letter-spacing: 4px; text-transform: uppercase; font-weight: 700;">Trust by</span>
+                <div style="display: flex; gap: 4rem;">
+                    <img src="assets/images/logo_meo.webp" alt="MEO" style="height: 25px; filter: grayscale(1) brightness(2);" loading="lazy">
+                    <img src="assets/images/logo_pingodoce_premium.webp" alt="Pingo Doce" style="height: 30px; filter: grayscale(1) brightness(2);" loading="lazy">
+                    <img src="assets/images/logo_sumolcompal.webp" alt="Sumol Compal" style="height: 40px; filter: grayscale(1) brightness(2);" loading="lazy">
+                    <img src="assets/images/logo_remax.webp" alt="REMAX" style="height: 30px; filter: grayscale(1) brightness(2);" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- The Smile Identity -->
+        <section class="split-identity">
+            <div class="identity-content reveal">
+                <div style="width: 60px; height: 2px; background: var(--accent-color); margin-bottom: 2rem;"></div>
+                <h2>The Smile<br>Identity.</h2>
+                <p>Com mais de 8 anos de experiência, a Smile Comunicação não é apenas uma agência de marketing — é uma força criativa dedicada a transformar a presença das marcas no território nacional.</p>
+                <p>Nascemos do desejo de romper com o convencional. Localizados em Alenquer, mas com o olhar em todo o país, combinamos logística própria, estratégia digital e publicidade de alto impacto para garantir que cada mensagem não seja apenas vista, mas sentida.</p>
+                <a href="solucoes.html" class="btn btn-skeleton">Explorar Soluções</a>
+            </div>
+            <div class="identity-image reveal">
+                <img src="assets/images/equipa.webp" alt="Our Team" class="main-img" loading="lazy">
+                <div class="overlay-badge">8+</div>
+            </div>
+        </section>
+
+        <!-- Impact Pillars (Artistic) -->
+        <section class="impact-pillars">
+            <div class="container">
+                <div class="pillar-grid">
+                    <div class="editorial-pillar reveal">
+                        <span>01</span>
+                        <h3>Missão</h3>
+                        <p>Injetar criatividade e estratégia em cada ponto de contacto, transformando ativações simples em memórias duradouras para os consumidores.</p>
+                    </div>
+                    <div class="editorial-pillar reveal" style="transition-delay: 0.2s;">
+                        <span>02</span>
+                        <h3>Visão</h3>
+                        <p>Redefinir o panorama da publicidade exterior em Portugal, sendo o parceiro que as marcas procuram quando querem verdadeiramente brilhar.</p>
+                    </div>
+                    <div class="editorial-pillar reveal" style="transition-delay: 0.4s;">
+                        <span>03</span>
+                        <h3>Valores</h3>
+                        <p>Agilidade e Compromisso. Operamos com o rigor de uma grande corporação e a paixão de uma equipa boutique especializada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Editorial Stats Reveal -->
+        <section class="stats-reveal">
+            <div class="stat-editorial-item reveal">
+                <div class="number">500+</div>
+                <div class="label">Campanhas</div>
+            </div>
+            <div class="stat-editorial-item reveal" style="transition-delay: 0.2s;">
+                <div class="number">18</div>
+                <div class="label">Distritos</div>
+            </div>
+            <div class="stat-editorial-item reveal" style="transition-delay: 0.4s;">
+                <div class="number">200+</div>
+                <div class="label">Parceiros</div>
+            </div>
+            <div class="stat-editorial-item reveal" style="transition-delay: 0.6s;">
+                <div class="number">100%</div>
+                <div class="label">Resultados</div>
+            </div>
+        </section>
+
+    </main>
+v>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-cta-section reveal">
+                <div class="footer-cta-text">
+                    <h3>Pronto para dar o próximo passo?</h3>
+                    <p>Vamos criar impacto juntos e elevar a sua marca.</p>
+                </div>
+                <div class="footer-cta">
+                    <a href="contactos.html" class="btn-footer">Peça o Seu Orçamento</a>
+                </div>
+            </div>
+            <div class="container footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <img src="assets/images/logo_smile.webp" alt="Smile Comunicação">
+                    </div>
+                    <p>A sua parceira estratégica na comunicação focada em gerar resultados reais e memoráveis.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/fsmilecomunicacao" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/smile.comunicacao/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/351915246658" target="_blank" rel="noopener noreferrer"
+                            aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="solucoes.html">Soluções</a></li>
+                        <li><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contactos</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Alenquer - Portugal</li>
+                        <li><i class="fas fa-phone"></i> 263 711 413</li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/351915246658" target="_blank"
+                                style="color: var(--accent-color); font-weight: 700;">915 246 658</a></li>
+                        <li><i class="fas fa-envelope"></i> <a
+                                href="mailto:geral@smilecomunicacao.pt">geral@smilecomunicacao.pt</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Smile Comunicação. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <script src="script.min.js?v=3.5" defer></script>
+</body>
+
+</html>
